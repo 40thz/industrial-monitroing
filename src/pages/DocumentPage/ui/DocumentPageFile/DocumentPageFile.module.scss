@@ -1,0 +1,42 @@
+@import '@/styles/vars.scss';
+
+.file {
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+    padding-left: 8px;
+    border: 2px solid $blueBG;
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 6px;
+    gap: 8px;
+
+    svg {
+        path {
+            fill: $blueBG;
+            stroke: $blueBG;
+        }
+    }
+
+    &:hover {
+        background: $blueBG;
+
+        svg {
+            path {
+                fill: #fff;
+                stroke: #fff;
+            }
+        }
+
+        span {
+            color: #fff;
+        }
+    }
+}

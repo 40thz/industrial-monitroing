@@ -1,0 +1,72 @@
+@import '@/styles/vars.scss';
+
+.disclosure {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: $white;
+    border-radius: 20px;
+    padding: 16px 20px;
+    width: 100%;
+
+    h1 {
+        flex: 1
+    }
+
+    svg {
+        margin-left: 20px;
+        path {
+            stroke: $blueBG;
+        }
+    }
+
+    &.active {
+        background: $blueBG;
+
+        svg {
+            path {
+                stroke: $white;
+            }
+        }
+    }
+}
+
+.col2 {
+    display: flex;
+    gap: 16px;
+
+    &_inner {
+        width: 32px;
+        height: auto;
+        border-radius: 8px;
+        background: $blueBG;
+    }
+
+    .disclosure {
+        gap: 8px;
+    }
+
+    .button {
+        padding: 8px 16px;
+        background: #fff;
+
+        svg {
+            path {
+                stroke: $blueBG;
+            }
+        }
+    }
+}

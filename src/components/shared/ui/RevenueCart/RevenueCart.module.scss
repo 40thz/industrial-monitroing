@@ -1,0 +1,21 @@
+@import '@/styles/vars.scss';
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid $blueBG;
+
+    &_footer {
+        display: flex;
+        gap: 8px;
+        align-items: flex-end;
+
+            // span {
+            //     line-height: 50%;
+            // }
+    }
+}

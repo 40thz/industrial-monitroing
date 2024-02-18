@@ -1,0 +1,14 @@
+@import '@/styles/vars.scss';
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px 32px;
+    background: $blueBG;
+    border-radius: 20px;
+}
+
+.button {
+    cursor: pointer;
+}

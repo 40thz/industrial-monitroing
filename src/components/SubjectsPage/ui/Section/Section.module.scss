@@ -1,0 +1,15 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    &_inner {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        gap: 75px;
+
+        &.reverse {
+            grid-template-columns: 1fr 0.5fr;
+        }
+    }
+}

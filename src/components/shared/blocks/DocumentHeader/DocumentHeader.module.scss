@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &_options {
+        display: grid;
+        grid-template-columns: 1fr 0.8fr 0.5fr;
+        gap: 16px;
+    }
+}

@@ -1,0 +1,11 @@
+.carts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

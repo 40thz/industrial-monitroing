@@ -1,0 +1,40 @@
+@import '@/styles/vars.scss';
+
+.main {
+    position: relative;
+    background: url('../../assets/MainPage/bg.svg') no-repeat center;
+    background-position: 25vw 0;
+    height: 100%;
+
+
+    &_inner {
+        padding: 45px 25px 30px 25px;
+        height: 100%;
+        max-width: 700px;
+        text-align: center;
+    }
+
+    &_content {
+        padding: 16px 32px 44px 32px;
+        background: $blueBG;
+        width: 100%;
+        border-radius: 20px;
+        text-align: left;
+        margin-bottom: 16px;
+
+    }
+
+    &_header {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-bottom: 24px;
+    }
+
+    &_body {
+        display: flex;
+        flex-direction: column;
+        gap: 52px;
+        margin-top: 24px;
+    }
+}

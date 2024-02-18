@@ -1,0 +1,16 @@
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+
+    &_inner {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+}
+
+.icon {
+    max-width: 40px;
+}

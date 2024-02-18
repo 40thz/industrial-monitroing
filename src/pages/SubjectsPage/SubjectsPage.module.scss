@@ -1,0 +1,39 @@
+@import '@/styles/vars.scss';
+
+.main {
+    padding: 20px 0;
+
+    &_inner {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    height: fit-content;
+
+    .tabs {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.carts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

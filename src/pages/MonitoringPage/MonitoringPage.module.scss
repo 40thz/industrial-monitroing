@@ -1,0 +1,11 @@
+@import '../../styles/vars.scss';
+
+.main {
+    padding: 20px 0;
+
+    &_inner {
+        display: flex;
+        flex-direction: column; 
+        gap: 80px;
+    }
+}

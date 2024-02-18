@@ -1,0 +1,11 @@
+.graphic {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &_body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

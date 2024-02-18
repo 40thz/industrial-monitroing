@@ -1,0 +1,43 @@
+.section {
+  display: grid;
+  grid-template-columns: 0.1fr auto;
+  gap: 16px;
+
+  &_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+  }
+}
+
+.carts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .cart {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
+
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

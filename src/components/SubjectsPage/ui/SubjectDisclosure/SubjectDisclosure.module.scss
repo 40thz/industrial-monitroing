@@ -1,0 +1,16 @@
+@import '@/styles/vars.scss';
+
+.disclosure {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: $white;
+    gap: 32px;
+    padding: 16px;
+}

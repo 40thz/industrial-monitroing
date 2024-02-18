@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .panel {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .cart {
+        display: grid;
+        grid-template-columns: 2fr 1.5fr;
+        grid-column-start: 1;
+        grid-column-end: 5
+    }
+}

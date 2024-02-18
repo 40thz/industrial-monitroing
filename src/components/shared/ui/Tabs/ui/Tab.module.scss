@@ -1,0 +1,27 @@
+@import '@/styles/vars.scss';
+
+.tab {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 8px 0;
+    
+    &:disabled {
+      opacity: 0.6;
+    }
+  
+    span {
+      color: $blueBG;
+    }
+  
+    &.active {
+      background: $blueBG;
+  
+      span {
+        color: $white;
+      }
+    }
+  }
+  

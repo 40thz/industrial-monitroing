@@ -1,0 +1,18 @@
+@import '@/styles/vars.scss';
+
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  height: 100%;
+
+  &_inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 12px;
+    border: 1px solid $blueBG;
+    height: 100%;
+    width: 100%;
+  }
+}

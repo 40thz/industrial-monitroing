@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &_inner {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .cart {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}

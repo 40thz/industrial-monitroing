@@ -1,0 +1,23 @@
+.industry_body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.industry_panel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  &_header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  &_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 8px;
+  }
+}

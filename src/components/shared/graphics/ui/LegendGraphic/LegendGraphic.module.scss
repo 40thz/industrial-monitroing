@@ -1,0 +1,15 @@
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &_item {
+        display: grid;
+        grid-template-columns: 47px auto;
+        gap: 8px;
+
+        &_mark {
+            border-radius: 29px;
+        }
+    }
+}

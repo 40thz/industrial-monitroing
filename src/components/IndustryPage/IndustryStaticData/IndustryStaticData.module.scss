@@ -1,0 +1,28 @@
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &_header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  &_footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+.cart_flex {
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16px;
+
+  span {
+    max-width: 400px;
+  }
+}
